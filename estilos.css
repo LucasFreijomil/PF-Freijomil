@@ -1,0 +1,291 @@
+#header {
+    height: 100px;
+    background-color: rgb(255, 225, 142);
+    display: flex;
+    overflow: auto;
+} 
+
+#header2 {
+    height: 100px;
+    background-color: rgb(255, 225, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.formularios-inicio-sesion {
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+#email {
+    width: 500px;
+    height: 35px;
+    font-size: large;
+}
+
+#contraseña {
+    width: 500px;
+    height: 35px;
+    font-size: large;
+}
+
+#olvidaste-tu-contrasena {
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    margin-right: 800px;
+    font-size: large;
+    font-style: italic;
+    
+}
+
+#boton-iniciar-sesion {
+    width: 300px;
+    height: 35px;
+    margin-top: 50px;
+    margin-left: 210px;
+    background-color: rgb(172, 9, 9);
+    border: none;
+    color: white;
+    font-size: large;
+    margin-bottom: 300px;
+    
+}
+
+#div_centro{
+    
+    margin-left: 350px;
+    height: 70px;
+    margin-top: 15px;
+    
+}
+
+#logo {
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#div_linksmenu{
+    margin-left: 400px;
+}
+
+#categorias {
+    margin-top: 5px;
+    
+}
+
+.linksmenu {
+    font-size: 20px;
+}
+
+#busqueda {
+    align-content: center;
+}
+
+.div_content{
+    display: grid;
+    margin-top: 20px;
+    width: 700px;
+}
+
+
+.column {
+    float: left;
+    width: 150px;
+    display: grid;
+    text-align: center;
+    margin-left: 340px;
+  }
+  
+  .row{
+      margin-top: 50px;
+      
+      
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .img_body {
+    height: 150px;
+    width: 150px;
+    
+     
+  }
+
+  footer{
+      background-color: rgb(165, 165, 165);
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .texto_footer{
+      color: black;
+      font-size: 20px;
+  }
+
+  .footerinicio
+  {
+      margin-top: 300px;
+  }
+
+  #textotitulo2 {
+    height: 100px;
+    background-color: rgb(255, 225, 142);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #boton-crear-cuenta {
+   
+    width: 300px;
+    height: 35px;
+    margin-top: 50px;
+    margin-left: 210px;
+    background-color: rgb(172, 9, 9);
+    border: none;
+    color: white;
+    font-size: large;
+    margin-bottom: 300px;
+    transition: 0.3s
+    
+  }
+
+  #boton-crear-cuenta:hover {
+    background-color: rgb(88, 0, 0);
+    transform: scale(1.05,1.05);
+  }
+
+  #colocar-email {
+    width: 500px;
+    height: 35px;
+    font-size: large;
+  }
+
+  #colocar-contrasena {
+    width: 500px;
+    height: 35px;
+    font-size: large;
+  }
+
+  #confirmar-contrasena {
+    width: 500px;
+    height: 35px;
+    font-size: large;
+  }
+
+  #colocar-nombre-y-apellido {
+    width: 500px;
+    height: 35px;
+    font-size: large;
+  }
+
+  .formularios-crear-cuenta {
+    margin-left: 20px;
+    margin-top: 70px;
+  }
+
+  #titulocontacto {
+      font-weight: bold;
+      font-size: x-large;
+      
+  }
+
+  #introducir-mensaje {
+    width: 500px;
+    height: 150px;
+    font-size: large;
+  }
+
+  #boton-enviar-mensaje {
+    width: 508px;
+    height: 35px;
+    margin-top: 50px;
+    background-color: rgb(172, 9, 9);
+    border: none;
+    color: white;
+    font-size: large;
+    margin-bottom: 300px;
+    transition: 0.3s;
+    
+    
+  }
+
+  #boton-enviar-mensaje:hover {
+
+    background-color: rgb(88, 0, 0);
+    transform: scale(1.1,1.1);
+    
+    
+  }
+
+  #titulo-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 70px;
+  }
+
+  .p1 {
+      display: flex;
+      justify-content: center;
+      margin-left: 30px;
+      margin-right: 30px;
+
+      
+  }
+
+  .pizqder {
+      width: 500px;
+      padding: 50px;
+  }
+ 
+  #video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+  }
+
+  #tabla {
+    
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    
+    
+  }
+
+  .todoelcuerpo {
+    justify-content: center;
+    display: flex
+    
+    
+  }
+
+  .datos-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+  }
+
+  body {
+    background-color: rgb(255, 252, 194);
+  }
+
+  @media screen and (min-width: 768px) {
+    body {
+      background-color: rgb(255, 252, 194);
+    }
+  }
+
+  
