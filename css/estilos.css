@@ -398,4 +398,8 @@ select {
   .ciguenales {
     margin-bottom: 50px; }
   .pistones {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  .columnasfooter {
+    font-size: x-small; }
+  #titulodelfooter {
+    font-size: large; } }
