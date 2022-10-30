@@ -218,10 +218,6 @@ footer {
 body {
   background-color: #f0f0f0; }
 
-@media screen and (min-width: 768px) {
-  body {
-    background-color: #f0f0f0; } }
-
 .listas {
   display: flex; }
 
@@ -252,7 +248,10 @@ ul {
   margin-top: 15px;
   padding: 10px; }
 
-#lireg, #liing, #licon, #liinf {
+#lireg,
+#liing,
+#licon,
+#liinf {
   padding: 10px;
   text-decoration: none;
   color: white;
@@ -370,3 +369,33 @@ h2 {
 select {
   margin-top: 5px;
   height: 30px; }
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #f0f0f0; }
+  .indexmain {
+    width: 95%;
+    max-width: 1000px;
+    margin: 20px auto;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px; }
+  #logo {
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 5px; }
+  .categoriesnsearch {
+    padding: 5px;
+    width: 40%; }
+  .linksnav {
+    padding: 5px;
+    font-size: small;
+    margin-right: 5px; }
+  .bielas {
+    margin-bottom: 50px; }
+  .ciguenales {
+    margin-bottom: 50px; }
+  .pistones {
+    margin-bottom: 50px; } }
